@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>First Baptist Church, Acworth, GA</title>
+<meta name="description" content="Sunday worship at 10:30am and Wednesday service at 6:00pm at 4583 Church Street, Acworth, GA. Home of the Jacob's Ladder preschool.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f5eee1;
+  --ink:#241c17;
+  --brick:#7d2c1f;
+  --brick-dark:#5e1f15;
+  --rule:#d4c6ac;
+  --muted:#5b4f45;
+  --wheat:#ecdfc6;
+  --serif:'Fraunces',Georgia,'Times New Roman',serif;
+  --sans:'Source Sans 3',system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:1.0625rem;line-height:1.55}
+a{color:inherit}
+.wrap{width:100%;max-width:1160px;margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:var(--serif);font-weight:700;line-height:1.08;margin:0}
+p{margin:0}
+
+.preview{background:var(--ink);color:#f5eee1;font-size:.875rem;text-align:center;padding:9px 16px;line-height:1.35}
+
+header.site{border-bottom:1px solid var(--rule)}
+header.site .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-top:14px;padding-bottom:14px}
+.name{font-family:var(--serif);font-weight:700;font-size:1.15rem;line-height:1.1;text-decoration:none}
+.name small{display:block;font-family:var(--sans);font-weight:400;font-size:.8rem;color:var(--muted);margin-top:2px}
+header.site nav{display:none}
+header.site nav a{margin-left:26px;text-decoration:none;font-weight:600}
+header.site nav a:hover{text-decoration:underline}
+.tel-link{font-weight:700;text-decoration:none;color:var(--brick);white-space:nowrap}
+
+/* hero */
+.hero{padding:36px 0 0}
+.hero-grid{display:grid;gap:32px}
+.hero h1{font-size:clamp(2.5rem,11vw,5.6rem);letter-spacing:-.02em}
+.hero h1 span{display:block}
+.hero h1 .at{color:var(--brick)}
+.hero .lede{margin-top:20px;max-width:34ch;font-size:1.15rem}
+.btns{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:26px}
+.btn{display:flex;align-items:center;justify-content:center;min-height:52px;padding:10px 12px;font-weight:700;text-decoration:none;text-align:center;border:2px solid var(--brick);line-height:1.2}
+.btn.solid{background:var(--brick);color:#fff}
+.btn.solid:hover{background:var(--brick-dark)}
+.btn.line{color:var(--brick)}
+.btn.line:hover{background:var(--wheat)}
+.btn:focus-visible,a:focus-visible{outline:3px solid #b8860b;outline-offset:2px}
+
+.visit{background:var(--brick);color:#fbf3e6;padding:26px 22px}
+.visit h2{font-size:1.5rem;margin-bottom:14px}
+.visit dl{margin:0}
+.visit dt{font-weight:700;font-size:.9rem;opacity:.85;margin-top:14px}
+.visit dd{margin:2px 0 0;font-size:1.15rem}
+.visit a{text-underline-offset:3px}
+.visit .fb{margin-top:18px;padding-top:16px;border-top:1px solid rgba(255,255,255,.35);font-size:1rem}
+
+/* jacobs ladder */
+.jl{margin-top:56px;padding:56px 0 0;border-top:1px solid var(--rule)}
+.jl-top{display:grid;gap:22px}
+.jl h2{font-size:clamp(2.2rem,8vw,3.8rem);letter-spacing:-.015em}
+.jl .hours{font-family:var(--serif);font-weight:500;font-size:1.35rem;line-height:1.25}
+.jl .hours b{display:block;font-weight:700;color:var(--brick);font-size:1.6rem}
+.jl .mission{font-size:1.2rem;max-width:40ch}
+.year{margin-top:34px;display:grid;gap:0}
+.year div{padding:16px 0;border-top:1px solid var(--rule)}
+.year h3{font-size:1.2rem;margin-bottom:4px}
+.year p{color:var(--muted)}
+.year p strong{color:var(--ink)}
+
+.verse{background:var(--wheat);margin-top:34px;padding:40px 0}
+.verse blockquote{margin:0;font-family:var(--serif);font-weight:500;font-size:clamp(1.5rem,5.2vw,2.5rem);line-height:1.25;max-width:26em}
+.verse cite{display:block;margin-top:14px;font-family:var(--sans);font-style:normal;font-weight:700;color:var(--brick);font-size:1rem}
+.verse-grid{display:grid;gap:28px}
+.tour h3{font-size:1.4rem;margin-bottom:8px}
+.tour .btns{margin-top:16px}
+.tour p+p{margin-top:10px}
+
+/* contact */
+.contact{padding:56px 0}
+.contact-grid{display:grid;gap:34px}
+.contact h2{font-size:clamp(1.9rem,6vw,2.8rem);margin-bottom:14px}
+.addr{font-family:var(--serif);font-size:1.5rem;line-height:1.3;font-weight:500}
+.people{display:grid;gap:0}
+.people div{padding:16px 0;border-top:1px solid var(--rule)}
+.people div:last-child{border-bottom:1px solid var(--rule)}
+.people strong{font-family:var(--serif);font-size:1.2rem}
+.people span{display:block;color:var(--muted)}
+
+footer{background:var(--ink);color:#e8dfce;padding:28px 0;font-size:.95rem}
+footer .wrap{display:grid;gap:6px}
+footer a{text-underline-offset:3px}
+
+@media(min-width:760px){
+  .wrap{padding:0 40px}
+  header.site nav{display:block}
+  header.site .tel-link{display:none}
+  .hero{padding-top:64px}
+  .hero-grid{grid-template-columns:1.5fr 1fr;gap:56px;align-items:stretch}
+  .btns{grid-template-columns:max-content max-content}
+  .btn{padding:10px 28px}
+  .visit{padding:36px 32px;align-self:end}
+  .jl-top{grid-template-columns:1.2fr 1fr;gap:56px;align-items:end}
+  .year{grid-template-columns:repeat(4,1fr);column-gap:32px}
+  .year div{padding-right:8px}
+  .verse-grid{grid-template-columns:1.5fr 1fr;gap:64px;align-items:center}
+  .contact-grid{grid-template-columns:1fr 1fr;gap:72px}
+  footer .wrap{grid-template-columns:1fr auto}
+}
+@media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+</style>
+</head>
+<body>
+
+<div class="preview">Concept preview made by Purcell Ventures for First Baptist Church. Not the official site.</div>
+
+<header class="site">
+  <div class="wrap">
+    <a class="name" href="#top">First Baptist Church<small>4583 Church Street, Acworth, GA</small></a>
+    <nav aria-label="Main">
+      <a href="#school">Jacob's Ladder</a>
+      <a href="#contact">Contact</a>
+      <a class="tel-link" style="display:inline;margin-left:26px" href="tel:7709743021">770-974-3021</a>
+    </nav>
+    <a class="tel-link" href="tel:7709743021">770-974-3021</a>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <h1><span>Sundays <span class="at" style="display:inline">10:30</span></span><span>Wednesdays <span class="at" style="display:inline">6:00</span></span></h1>
+      <p class="lede">Sunday is the 10:30am worship service. Wednesday is the 6:00pm midweek service in the sanctuary.</p>
+      <div class="btns">
+        <a class="btn solid" href="https://www.google.com/maps/search/?api=1&amp;query=4583+Church+Street+Acworth+GA+30101">Find us on the map</a>
+        <a class="btn line" href="tel:7709743021">Call 770-974-3021</a>
+      </div>
+    </div>
+    <aside class="visit" aria-label="Visit">
+      <h2>First Baptist Church</h2>
+      <dl>
+        <dt>Where</dt>
+        <dd>4583 Church Street<br>Acworth, GA 30101</dd>
+        <dt>Music</dt>
+        <dd>David Boggs</dd>
+        <dt>Ask a question</dt>
+        <dd><a href="mailto:office@fbcacworth.com">office@fbcacworth.com</a></dd>
+      </dl>
+      <p class="fb">Announcements for the week are posted on our Facebook page, First Baptist Church of Acworth.</p>
+    </aside>
+  </div>
+</section>
+
+<section class="jl" id="school">
+  <div class="wrap">
+    <div class="jl-top">
+      <div>
+        <h2>Jacob's Ladder</h2>
+        <p class="mission" style="margin-top:16px">A ministry of First Baptist Church Acworth with a Christian based curriculum. Its mission is to equip young students to achieve academic success with a Biblical foundation.</p>
+      </div>
+      <p class="hours"><b>Ages 12 months through 4 years</b>Monday to Friday<br>9:15am to 1:15pm</p>
+    </div>
+
+    <div class="year">
+      <div>
+        <h3>In the classroom</h3>
+        <p>Three year olds use the <strong>Wee Learn</strong> curriculum. Four year olds use <strong>Abeka</strong>.</p>
+      </div>
+      <div>
+        <h3>Every week</h3>
+        <p>The 3 and 4 year old classes take part in music.</p>
+      </div>
+      <div>
+        <h3>Once a month</h3>
+        <p>Chapel in the classroom.</p>
+      </div>
+      <div>
+        <h3>Through the year</h3>
+        <p>The 4 year old classes go on field trips. All ages take part in the Christmas Program.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="verse">
+    <div class="wrap verse-grid">
+      <blockquote>
+        &ldquo;Train a child in the way he should go, and when he is old he will not turn from it.&rdquo;
+        <cite>Proverbs 22:6, the Jacob's Ladder verse</cite>
+      </blockquote>
+      <div class="tour">
+        <h3>Come see a classroom</h3>
+        <p>Call <a href="tel:7709743021">770-974-3021</a> or email <a href="mailto:jl@fbcacworth.com">jl@fbcacworth.com</a> to schedule a tour.</p>
+        <p>Forms and announcements for Jacob's Ladder are on the church Facebook page.</p>
+        <div class="btns">
+          <a class="btn solid" href="tel:7709743021">Call for a tour</a>
+          <a class="btn line" href="mailto:jl@fbcacworth.com">Email Jacob's Ladder</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap contact-grid">
+    <div>
+      <h2>Find the church</h2>
+      <p class="addr">4583 Church Street<br>Acworth, GA 30101</p>
+      <p style="margin-top:16px">Phone <a href="tel:7709743021"><strong>770-974-3021</strong></a></p>
+    </div>
+    <div>
+      <h2>Who to ask</h2>
+      <div class="people">
+        <div><strong>Charissa Smith</strong><span>Administrative assistant, <a href="mailto:office@fbcacworth.com">office@fbcacworth.com</a></span></div>
+        <div><strong>David Boggs</strong><span>Music</span></div>
+        <div><strong>Jacob's Ladder tours</strong><span><a href="mailto:jl@fbcacworth.com">jl@fbcacworth.com</a></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>First Baptist Church, 4583 Church Street, Acworth, GA 30101</span>
+    <span><a href="tel:7709743021">770-974-3021</a> &middot; <a href="mailto:office@fbcacworth.com">office@fbcacworth.com</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
